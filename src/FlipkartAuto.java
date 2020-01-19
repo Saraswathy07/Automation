@@ -37,7 +37,7 @@ public class FlipkartAuto {
 		try {
 			Log.info("Test Started");
 			driver.findElement(By.id("email")).sendKeys("9659135936");
-			driver.findElement(By.id("pass")).sendKeys("arkMiracles%12");
+			driver.findElement(By.id("pass")).sendKeys("arkMiracles");
 			driver.findElement(By.id("u_0_2")).click();
 			Thread.sleep(10000);
 			
