@@ -16,7 +16,7 @@ public class FlipkartAuto {
 	@Before
 	public void setUp() throws Exception {
 		Log.startTestCase("Flipkart Automation Testing");
-		Log.info("Driver Setup initiated");
+		Log.info("Driver Setup initiated ");
 		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com");
