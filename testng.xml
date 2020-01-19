@@ -1,0 +1,7 @@
+<suite name="sample test">
+ <test name="testngTest">
+ <classes>
+ <class name="clearTrip.clearTripFun" />
+ </classes>
+ </test>
+</suite>
